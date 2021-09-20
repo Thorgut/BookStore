@@ -1,0 +1,14 @@
+﻿<Window x:Class="BookStore.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BookStore"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image HorizontalAlignment="Center" Height="190" VerticalAlignment="Center" Width="452" Margin="176,42,165.6,188" Source="Bookshelf.jpg" Stretch="Fill"/>
+        <Button Content="Go To Application" HorizontalAlignment="Center" Margin="326,290,314.6,66" VerticalAlignment="Center" Width="153" Height="64" FontFamily="Consolas" FontSize="15" FontWeight="Bold" Click="Button_Click"/>
+
+    </Grid>
+</Window>

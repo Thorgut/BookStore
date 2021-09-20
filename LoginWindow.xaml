@@ -1,0 +1,17 @@
+﻿<Window x:Class="BookStore.LoginWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BookStore"
+        mc:Ignorable="d"
+        Title="Login" Height="408.352" Width="303.273">
+    <Grid>
+        <TextBox x:Name="UsernameTextBox" Margin="112,53,24.8,291.4" TextWrapping="Wrap" RenderTransformOrigin="0.995,0.466"/>
+        <Label Content="Username:" Margin="29,53,0,0" Width="77" Height="34" FontFamily="Arial" FontWeight="Bold" FontSize="13" VerticalAlignment="Top" HorizontalAlignment="Left"/>
+        <Label Content="Password:" Margin="29,101,0,0" Width="77" Height="34" FontFamily="Arial" FontWeight="Bold" FontSize="13" VerticalAlignment="Top" HorizontalAlignment="Left" RenderTransformOrigin="0.643,2.204"/>
+        <Button Content="Login" HorizontalAlignment="Left" Margin="100,201,0,0" VerticalAlignment="Top" Width="104" Height="47" Click="Button_Click"/>
+        <PasswordBox x:Name="PasswordTextBox" HorizontalAlignment="Left" Margin="112,101,0,0" VerticalAlignment="Top" Width="160" Height="34"/>
+
+    </Grid>
+</Window>
